@@ -1,8 +1,8 @@
 {
-  "name": "zhimei",
+  "name": "shangmei",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "L.J.Zhang",
+  "author": "luyang",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

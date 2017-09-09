@@ -288,11 +288,11 @@
 <script>
 import footerbar from '../../components/contact/footerbar'
 import topbar from '../../components/contact/top-search'
-import { queryUserAll } from '@/api/service'
+import { queryUsersByName } from '@/api/service'
 export default {
     data() {
         return {
-            dataList:[]
+
         }
     },
     components: {
@@ -303,10 +303,9 @@ export default {
     },
     methods: {
         async queryCart() {
-            await queryUserAll({
+            await queryUsersByName({
             }).then(res => {
-                 this.dataList = res.data.arrayList;
-                 console.log(this.dataList)
+                 console.log(res.data)
             })
         }
     }

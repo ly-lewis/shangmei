@@ -6,46 +6,41 @@
         </div>
         <div class="content">
             <ul class="content-list">
-                <router-link to="votesDetail" tag="li">
+                <router-link to="surveyDetail" tag="li">
                     <div class="top">
-                        <p class="name">投票活动一</p>
+                        <p class="name">调研答题测试</p>
                         <p class="count">
-                            <span>20人</span>已投票</p>
+                            <span>20</span>题</p>
                     </div>
                     <p class="bot">截止日期&nbsp;:&nbsp;2018-10-23</p>
                 </router-link>
-                <router-link to="votesDetail" tag="li">
+                <router-link to="surveyDetail" tag="li">
                     <div class="top">
-                        <p class="name">投票活动一</p>
+                        <p class="name">调研答题测试</p>
                         <p class="count">
-                            <span>20人</span>已投票</p>
+                            <span>20</span>题</p>
                     </div>
                     <p class="bot">截止日期&nbsp;:&nbsp;2018-10-23</p>
                 </router-link>
-                <router-link to="votesDetail" tag="li">
+                  <router-link to="surveyDetail" tag="li">
                     <div class="top">
-                        <p class="name">投票活动一</p>
+                        <p class="name">调研答题测试</p>
                         <p class="count">
-                            <span>20人</span>已投票</p>
+                            <span>20</span>题</p>
                     </div>
                     <p class="bot">截止日期&nbsp;:&nbsp;2018-10-23</p>
                 </router-link>
-                <router-link to="votesDetail" tag="li">
+               <router-link to="surveyDetail" tag="li">
                     <div class="top">
-                        <p class="name">投票活动一</p>
+                        <p class="name">调研答题测试</p>
                         <p class="count">
-                            <span>20人</span>已投票</p>
+                            <span>20</span>题</p>
                     </div>
                     <p class="bot">截止日期&nbsp;:&nbsp;2018-10-23</p>
                 </router-link>
             </ul>
         </div>
         <footerbar></footerbar>
-        <div class="startVote">
-            <router-link to="startVote" tag="div">
-                <img src="../../assets/images/s-vote.png" alt="">
-            </router-link>
-        </div>
     </div>
 </template>
 <style lang="less" scoped>
@@ -111,21 +106,10 @@
             }
         }
     }
-    .startVote {
-        width: 93/@pxtorem;
-        height: 93/@pxtorem;
-        position: absolute;
-        right: 30/@pxtorem;
-        bottom: 214/@pxtorem;
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
 }
 </style>
 <script>
-import footerbar from '../../components/votes/footerbar'
+import footerbar from '../../components/survey/footerbar'
 export default {
     data() {
         return {

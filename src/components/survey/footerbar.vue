@@ -1,11 +1,11 @@
 <template>
     <div class="contact-footbar">
         <ul class="contact-list">
-            <router-link to="myVotes" tag="li" class="footer-list" active-class="active1">
-                <img src="../../assets/images/vote-on.png" alt="">
-                <p>我的投票</p>
+            <router-link to="mySurvey" tag="li" class="footer-list" active-class="active1">
+                <img src="../../assets/images/survey-1.png" alt="">
+                <p>我的调研</p>
             </router-link>
-            <router-link to="votesMessage" tag="li" class="footer-list" active-class="active2">
+            <router-link to="surveyMessage" tag="li" class="footer-list" active-class="active2">
                 <img src="../../assets/images/message-on.png" alt="">
                 <p>消息</p>
             </router-link>

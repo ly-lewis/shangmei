@@ -45,7 +45,9 @@
         <p class="tit">2、团建活动</p>
       </div>
     </div>
-      <div class="add">+添加问题</div>
+      <div class="add">
+        <router-link to="addQuestion" tag="span">+添加问题</router-link>
+        </div>
       <div class="submit">
         <button class="cancel">取消</button>
         <button class="sure">确定</button>

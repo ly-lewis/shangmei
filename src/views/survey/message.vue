@@ -2,10 +2,10 @@
     <div class="message">
         <div class="message-in">
             <div class="message-box">
-                <p class="tit">【投票】每月之星投票活动</p>
+                <p class="tit">【调研答题】新产品调研活动</p>
                 <div class="content">
                     <img src="../../assets/images/bgimg.png" alt="">
-                    <p>快速发起投票,员工随时随地的通过手机投票,并可参与讨论、拉票等功能</p>
+                    <p>新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动</p>
                 </div>
                 <div class="all">
                     <p>查看全部</p>
@@ -13,10 +13,10 @@
                 </div>
             </div>
             <div class="message-box">
-                <p class="tit">【投票】每月之星投票活动</p>
+                <p class="tit">【调研答题】新产品调研活动</p>
                 <div class="content">
                     <img src="../../assets/images/bgimg.png" alt="">
-                    <p>快速发起投票,员工随时随地的通过手机投票,并可参与讨论、拉票等功能</p>
+                    <p>新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动新产品调研活动</p>
                 </div>
                 <div class="all">
                     <p>查看全部</p>
@@ -83,7 +83,7 @@
 }
 </style>
 <script>
-import footerbar from '../../components/votes/footerbar'
+import footerbar from '../../components/survey/footerbar'
 export default {
     data() {
         return {
