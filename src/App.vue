@@ -26,7 +26,7 @@ export default {
 
   .app {
     width: @screenWidth;
-    // min-height: @screenHeight;
+     min-height: @screenHeight;
     background: #f0f0f0;
   }
 </style>

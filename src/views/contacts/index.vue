@@ -205,9 +205,10 @@
     background: #eeeeee;
     .contact-content {
         display: flex;
-        margin-bottom: 100/@pxtorem;
+        // margin-bottom: 180/@pxtorem;
         .content-left {
             width: 92%;
+            margin-bottom: 160/@pxtorem;
             .letter-list {
                 width: 100%;
                 h1 {

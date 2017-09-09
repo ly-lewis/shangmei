@@ -244,14 +244,13 @@
     }
     .bot {
         width: 100%;
-        height: 80/@pxtorem;
+        height: 180/@pxtorem;
         display: flex;
         justify-content: center;
         margin-top: 135/@pxtorem;
-        margin-bottom: 190/@pxtorem;
         .submit {
             width: 367/@pxtorem;
-            height: 100%;
+             height: 80/@pxtorem;
             font-size: 32/@pxtorem;
             color: #fff;
             text-align: center;

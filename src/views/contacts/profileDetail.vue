@@ -146,6 +146,7 @@
 @pxtorem: 24rem;
 .profiledetail {
     width: 100%;
+    height: auto;
     padding-bottom: 100/@pxtorem;
     .touxiang {
         background: url(../../assets/images/bgimg.png);

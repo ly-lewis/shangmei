@@ -19,23 +19,26 @@ const startVote = r => require.ensure([], () => r(require('../views/votes/startV
 const votesDetail = r => require.ensure([], () => r(require('../views/votes/votesDetail')), 'votesDetail')
 const votesMessage = r => require.ensure([], () => r(require('../views/votes/votesMessage')), 'votesMessage')
 const votesResult = r => require.ensure([], () => r(require('../views/votes/votesResult')), 'votesResult')
-
-
 export default [
-    {path: '', redirect: '/myVotes'},  
+        {
+            path: '', 
+            redirect: '/myVotes'
+        },  
+        {
+        path:'/home',
+        meta:{
+            title:'上美'
+        },
+        component:home
+    },
     {
-    path:'/home',
-    meta:{
-        title:'上美'
-    },
-    component:home
-},{
-    path:'/myProfile',
-    meta:{
-        title:'我的资料'
-    },
-    component:myProfile,
-},{
+        path:'/myProfile',
+        meta:{
+            title:'我的资料'
+        },
+        component:myProfile,
+}
+,{
     path:'/framework',
     meta:{
         title:'组织架构'

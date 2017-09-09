@@ -17,12 +17,12 @@
 .contact-footbar {
     width: 100%;
     height: 96/@pxtorem;
-    ul {
+    position: fixed;
+    bottom: 0;
+    .contact-list {
         width: 100%;
-        height: 96/@pxtorem;
+        height:100%;
         background: #ffffff;
-        position: fixed;
-        bottom: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
