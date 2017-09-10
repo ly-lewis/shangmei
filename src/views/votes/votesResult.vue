@@ -6,7 +6,7 @@
                 <p class="begin">开始&nbsp;:&nbsp;
                     <span>2018-07-25</span>
                 </p>
-                <p class="end">&nbsp;:&nbsp;
+                <p class="end">结束&nbsp;:&nbsp;
                     <span>2018-07-25</span>
                 </p>
                 <p class="count">
@@ -167,7 +167,7 @@
     .comment {
         width: 100%;
         background: #ffffff;
-        margin-bottom: 48/@pxtorem;
+        margin-bottom: 90/@pxtorem;
         .comment-head {
             width: 100%;
             height: 90/@pxtorem;

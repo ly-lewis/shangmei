@@ -141,15 +141,19 @@
     .time {
       width: 100%;
       height: 90/@pxtorem;
-      padding-left: 30/@pxtorem;
-      padding-right: 31/@pxtorem;
+      padding: 28/@pxtorem 31/@pxtorem 28/@pxtorem 30/@pxtorem;
       display: flex;
       color: #333;
       font-size: 28/@pxtorem;
+      font-weight: bold;
       align-items: center;
       border-bottom: 1/@pxtorem #eee solid;
       .time-img {
         margin-right: 19/@pxtorem;
+        height: 100%;
+        img {
+          height: 100%;
+        }
       }
     }
     .voteresult {
